@@ -4,30 +4,26 @@ import math
 import random
 from scipy.stats import norm
 
-def norm_prob(val,m,s):
-	exponent = (( float(val) - m )**2)/(2*(s**2))
-	div = float(1)/(math.sqrt(2*math.pi*(s**2)))
-	p = float(div)*math.exp(exponent)
-	return p
-
 print("Mixture of Gaussians -- EM Algorithm Test")
 #Create data, sample from normals, roughly inline with pixel data
 I = 100
 a = np.random.normal(200,20,(I/2))
 b = np.random.normal(100,30,(I/2))
 
-x = []
-x = list(a) + list(b)
-x = list(x)
+val = []
+val = list(a) + list(b)
+val = list(val)
 
-plt.hist(x)
+print(len(val))
+
+plt.hist(val)
 #plt.show()
 
 #Calculate mean and standard dev of the total dataset
-mean = float(sum(x))/I
+mean = float(sum(val))/I
 print("Mean:\t\t\t%f"%mean)
 
-std = np.std(x)
+std = np.std(val)
 print("Standard Deviation:\t%f\n\n"%std)
 
 #Start EM algorithm for MoG!!!!
@@ -38,12 +34,11 @@ mu = []
 sigma = []
 
 for k in xrange(0,K):
-	mu.append(random.choice(x))
+	mu.append(random.choice(val))
 	sigma.append(std)
 
 #Begin main loop
 count = 1
-print norm_prob(x[3],150,50)
 
 while(count < 10):
 	print("Itteration %d:\n"%count)
@@ -51,7 +46,5 @@ while(count < 10):
 	r = [[0 for y in xrange(K)] for x in xrange(I)]
 	for i in xrange(0,I):
 		for k in xrange(0,K):
-			print(x[1])
-			v =  norm_prob(float(x[i]),1,1)
-	
+			norm.pdf(val[i],mu[k],sigma[k])
 	count = count + 1
