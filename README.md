@@ -1,7 +1,9 @@
 # Courses
 ## In Progress
 - [GitHub](https://www.coursera.org/learn/version-control-with-git)
+- [Theory of Machine Learning](https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08)
 ## To do
+- [ML Neural Net Theory](https://www.youtube.com/watch?v=vT1JzLTH4G4)
 - [ML fast.ai](fast.ai)
 - [ML Tensor flow](https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info) 
 - [Hinton ML](https://www.coursera.org/learn/neural-networks)
