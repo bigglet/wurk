@@ -1,6 +1,6 @@
 # Courses
 
-- [ ] [GitHub](https://www.coursera.org/learn/version-control-with-git) <-- IN PROGRESS
+- [x] [GitHub](https://www.coursera.org/learn/version-control-with-git) <-- IN PROGRESS
 - [ ] [Theory of Machine Learning](https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08)
 - [ ] [Stanford ML course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) with notes and exercises [here](http://cs231n.stanford.edu/syllabus.html)
 - [ ] [ML Deep Theory](https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08)
