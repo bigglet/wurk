@@ -1,6 +1,8 @@
 # Courses
 
-- [x] [GitHub](https://www.coursera.org/learn/version-control-with-git) <-- IN PROGRESS
+- [x] [GitHub](https://www.coursera.org/learn/version-control-with-git) 
+- [ ] [Algorithms: Part i](https://www.coursera.org/learn/algorithms-part1). <-- IN PROGRESS
+- [ ] [Algorithms: Part ii](https://www.coursera.org/learn/algorithms-part2)
 - [ ] [Theory of Machine Learning](https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08)
 - [ ] [Stanford ML course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) with notes and exercises [here](http://cs231n.stanford.edu/syllabus.html)
 - [ ] [ML Deep Theory](https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLnIDYuXHkit4LcWjDe0EwlE57WiGlBs08)
@@ -12,9 +14,10 @@
 - [ ] [Hinton ML](https://www.coursera.org/learn/neural-networks)
 - [ ] [Python ML](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/)
 - [ ] [Python Data science](https://www.coursera.org/learn/python-data-analysis)
-- [ ] [Algorithms](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Hardware and OS](https://www.coursera.org/learn/embedded-operating-system)
 - [ ] [OOP Java](https://www.coursera.org/learn/object-oriented-java)
+
+A list of books, videos and topics can be found [here](https://teachyourselfcs.com).
 
 ## Testing snippets for work
 MoG Testing in python
